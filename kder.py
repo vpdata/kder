@@ -4,7 +4,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 # Set page config with a new icon related to IT
-st.set_page_config(page_title="Percy Vicky - Développeur & Stratège en Marketing", page_icon="💻", layout="wide")
+st.set_page_config(page_title="Kader Belem", page_icon="💻", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -35,42 +35,43 @@ if lottie_marketing is None:
 if lottie_business_dev is None:
     st.error("Failed to load business development animation.")
 
-img_contact_form = Image.open("images/aubenet.png")
-img_lottie_animation = Image.open("images/aube proprete.png")
+img_contact_form = Image.open("images/calculatrice.png")
+img_lottie_animation = Image.open("images/librairie.png")
+img_third_image = Image.open("images/jdv.png")  # Load the third image
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hello, Je suis Percy Vicky 💻")
-    st.title("Data Analyst, Stratège Marketing, Développement Commercial & Développeur AI: Machine & Deep Learning,")
+    st.subheader("Hello, Je suis Kader Belem 💻")
+    st.title("Etudiant,")
     st.write(
         """
-        Percy Vicky est un professionnel polyvalent spécialisé dans le développement en intelligence artificielle, 
-        l'apprentissage automatique (Machine Learning) et l'apprentissage profond (Deep Learning). 
-        Fort d'une solide expertise en analyse de données, Percy se distingue par ses compétences stratégiques 
-        en marketing et en développement commercial. Grâce à sa capacité à élaborer des stratégies marketing efficaces 
-        et à optimiser le développement commercial, Percy aide les entreprises à accroître leur visibilité, 
-        à améliorer leurs performances et à atteindre leurs objectifs commerciaux.
+        Kader Belem est un étudiant ............................................................., 
+        .......................................................................................... 
+        .............................................................................................................. 
+        .............................................................................................................. 
+        ........................................................................................., 
+        ........................................................................
         """
     )
     st.write("[Plus d'informations >][Linkedin >](https://www.linkedin.com/in/vicky-percy-63a666209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)")
 
-# ---- SERVICES OFFERTS ----
+# ---- COMPETENCES ACQUISES ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("Services Offerts")
+        st.header("Compétences acquises")
         st.write("##")
         st.write(
             """
-            Services offerts:
-            - Création de site web & Optimisation (SEO) : Conception et développement de sites web performants et optimisés pour les moteurs de recherche, visant à améliorer la visibilité et le classement en ligne.
-            - Paramétrages des campagnes AdWords (SEA-SEM) : Configuration et gestion efficace des campagnes publicitaires Google AdWords, avec un focus sur le Search Engine Marketing (SEM) pour maximiser le retour sur investissement.
+            Compétences acquises:
+            - ............................................................................................
+            - ............................................................................................
             
-            Percy apporte une approche analytique et stratégique à chaque projet, utilisant ses compétences techniques et marketing pour aider les entreprises à atteindre leurs objectifs commerciaux et à se démarquer dans un marché compétitif.
+            ..............................................................................................
 
-            Si vous avez besoin de mes services, n'hésitez pas à me contacter. 
-            Je suis disponible pour discuter de vos projets et trouver des solutions adaptées à vos besoins.
+            .............................................................................................. 
+            ..............................................................................................
             """
         )
         st.write("[Linkedin >](https://www.linkedin.com/in/vicky-percy-63a666209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)")
@@ -81,16 +82,16 @@ with st.container():
 # ---- CE QUE JE FAIS ----
 with st.container():
     st.write("---")
-    st.header("Je Propose")
+    st.header("Veille informatique")
     st.write("##")
     st.write(
         """
         Voici quelques-uns des services que je propose:
-        - Développement Web: Création et optimisation de sites web performants et esthétiques.
-        - Marketing: Élaboration de stratégies marketing efficaces pour améliorer la visibilité et l'engagement des clients.
-        - Développement Commercial: Conseils et stratégies pour aider les entreprises à croître et à atteindre leurs objectifs commerciaux.
+        - .....................................................................................
+        - .....................................................................................
+        - .....................................................................................
 
-        Mon approche intègre une combinaison de compétences techniques et stratégiques pour offrir des solutions complètes et sur mesure à mes clients.
+        .......................................................................................
         """
     )
     left_column, right_column = st.columns(2)
@@ -110,7 +111,7 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Demandez un devis gratuit pour vos projets de nettoyage")
+        st.subheader("Contatez moi")
         st.write(
             """
             Si vous avez besoin de mes services, n'hésitez pas à me contacter.!
@@ -128,10 +129,25 @@ with st.container():
         st.write(
             """
             Si vous avez besoin d'un devis de nettoyage pour tout type de projet, 
-        n'hésitez pas à me contacter. Je suis à votre disposition pour vous fournir des solutions sur mesure adaptées à vos besoins..
+            n'hésitez pas à me contacter. Je suis à votre disposition pour vous fournir des solutions sur mesure adaptées à vos besoins..
             """
         )
         st.markdown("[Devis gratuit...](https://www.aubenet.fr/contactez-nous)")
+
+# ---- THIRD IMAGE SECTION ----
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_third_image)  # Display the third image
+    with text_column:
+        st.subheader("Third Image Title")
+        st.write(
+            """
+            Description for the third image. 
+            Provide information or context related to the image.
+            """
+        )
+        st.markdown("[Link related to the third image](https://example.com)")
 
 # ---- CONTACT ----
 with st.container():
