@@ -45,12 +45,12 @@ with st.container():
     st.title("Etudiant,")
     st.write(
         """
-        Kader Belem est un étudiant ............................................................., 
-        .......................................................................................... 
-        .............................................................................................................. 
-        .............................................................................................................. 
-        ........................................................................................., 
-        ........................................................................
+        Je m’appelle Kader Belem, j’ai 18 ans, et j’habite à Saint-Nazaire. 
+        Après avoir obtenu mon baccalauréat professionnel en Système Numérique
+        avec une option en Audio-Visuel, Réseau et Équipement Domestique, et
+        avoir été accepté au lycée La Colinière à Nantes, je suis actuellement
+        étudiant en première année de BTS SIO (Services Informatiques aux
+        Organisations).
         """
     )
     st.write("[Plus d'informations >][Linkedin >](https://www.linkedin.com/in/vicky-percy-63a666209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)")
@@ -114,9 +114,9 @@ with st.container():
         st.subheader("Contatez moi")
         st.write(
             """
-            Si vous avez besoin de mes services, n'hésitez pas à me contacter.!
-            Je suis disponible pour discuter de vos projets et trouver des solutions adaptées à vos besoins.
-            Sur ce site, Vous verrez nos service et prestations, vous pouvez demandez un devis gratuit
+            Ce projet consiste en la création d'une application de gestion de bibliothèque utilisant Python et une interface graphique.
+            L'application permet aux utilisateurs de gérer les livres, les emprunts, et les retours de manière efficace.
+            Le projet se concentre sur la création d'une interface utilisateur intuitive et facile à utiliser
             """
         )
         st.markdown("[Devis gratuit...](https://aubeproprete-services.fr/demande-de-devis/)")
@@ -128,8 +128,9 @@ with st.container():
         st.subheader("Demandez un devis gratuit pour vos projets de nettoyage")
         st.write(
             """
-            Si vous avez besoin d'un devis de nettoyage pour tout type de projet, 
-            n'hésitez pas à me contacter. Je suis à votre disposition pour vous fournir des solutions sur mesure adaptées à vos besoins..
+            Ce projet consiste en la création d'une calculatrice graphique utilisant la bibliothèque Tkinter en Python.
+            La calculatrice permet de réaliser des opérations arithmétiques de base telles que l'addition, la soustraction,
+            la multiplication et la division. Le projet se concentre sur la création d'une interface utilisateur intuitive et esthétique.
             """
         )
         st.markdown("[Devis gratuit...](https://www.aubenet.fr/contactez-nous)")
@@ -143,8 +144,9 @@ with st.container():
         st.subheader("Third Image Title")
         st.write(
             """
-            Description for the third image. 
-            Provide information or context related to the image.
+            Ce projet consiste en la création d'un jeu vidéo utilisant la bibliothèque Pygame en Python.
+            Le jeu propose une interface interactive où les utilisateurs peuvent interagir avec des éléments graphiques et audio.
+            Le projet se concentre sur la création d'une expérience de jeu engageante avec des graphismes attrayants et une jouabilité fluide..
             """
         )
         st.markdown("[Link related to the third image](https://example.com)")
