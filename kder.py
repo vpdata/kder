@@ -119,7 +119,7 @@ with st.container():
             Le projet se concentre sur la création d'une interface utilisateur intuitive et facile à utiliser
             """
         )
-        st.markdown("[Local URL:...](http://localhost:8501/)")
+        st.markdown("[Local URL:...](http://localhost:8502/)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
