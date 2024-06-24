@@ -119,7 +119,7 @@ with st.container():
             Le projet se concentre sur la création d'une interface utilisateur intuitive et facile à utiliser
             """
         )
-        st.markdown("[Devis gratuit...](https://aubeproprete-services.fr/demande-de-devis/)")
+        st.markdown("[Local URL:...](http://localhost:8501/)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -133,7 +133,7 @@ with st.container():
             la multiplication et la division. Le projet se concentre sur la création d'une interface utilisateur intuitive et esthétique.
             """
         )
-        st.markdown("[Devis gratuit...](https://www.aubenet.fr/contactez-nous)")
+        st.markdown("[Local URL...](http://localhost:8501/)")
 
 # ---- THIRD IMAGE SECTION ----
 with st.container():
@@ -149,7 +149,7 @@ with st.container():
             Le projet se concentre sur la création d'une expérience de jeu engageante avec des graphismes attrayants et une jouabilité fluide..
             """
         )
-        st.markdown("[Link related to the third image](https://example.com)")
+        st.markdown("[Local URL...](http://localhost:8501)")
 
 # ---- CONTACT ----
 with st.container():
