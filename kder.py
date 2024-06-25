@@ -45,7 +45,7 @@ with st.container():
     st.title("Etudiant,")
     st.write(
         """
-        Je m’appelle Kader Belem, j’ai 18 ans, et j’habite à Saint-Nazaire. 
+        Je m’appelle Kader Belem, j’ai 19 ans, et j’habite à Saint-Nazaire. 
         Après avoir obtenu mon baccalauréat professionnel en Système Numérique
         avec une option en Audio-Visuel, Réseau et Équipement Domestique, et
         avoir été accepté au lycée La Colinière à Nantes, je suis actuellement
@@ -65,16 +65,19 @@ with st.container():
         st.write(
             """
             Compétences acquises:
-            - ............................................................................................
-            - ............................................................................................
-            
-            ..............................................................................................
+            - Travailler en mode projet
+            - Analyser les objectifs et les modalités d’organisation d’un projet.
+            - Planifier les activités. 
+            - Évaluer les indicateurs de suivi d’un projet et analyser les écarts.
+            - Organiser son développement professionnel.
+            - Mettre en place son environnement d’apprentissage personnel.
+            _ Mettre en œuvre des outils et stratégies de veille informationnelle.
+            - Gérer son identité professionnelle  Développer son projet professionne. 
 
-            .............................................................................................. 
-            ..............................................................................................
+            
             """
         )
-        st.write("[Linkedin >](https://www.linkedin.com/in/vicky-percy-63a666209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)")
+        st.write("[Linkedin >](https://www.linkedin.com/in/kader-belem-688699213/)")
     with right_column:
         if lottie_coding:
             st_lottie(lottie_coding, height=300, key="coding")
@@ -86,12 +89,11 @@ with st.container():
     st.write("##")
     st.write(
         """
-        Voici quelques-uns des services que je propose:
-        - .....................................................................................
-        - .....................................................................................
-        - .....................................................................................
-
-        .......................................................................................
+        Sujet de veille informatique:
+        - Les enjeux de la cybersécurité en 2024.
+        - L'intelligence artificielle et l'automatisation.
+        - Blockchain et ses applications.
+        - Le développement durable dans le secteur IT.
         """
     )
     left_column, right_column = st.columns(2)
@@ -111,7 +113,7 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Contatez moi")
+        st.subheader("Gestionnaire de librairie")
         st.write(
             """
             Ce projet consiste en la création d'une application de gestion de bibliothèque utilisant Python et une interface graphique.
@@ -125,7 +127,7 @@ with st.container():
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("Demandez un devis gratuit pour vos projets de nettoyage")
+        st.subheader("Projet de calculatrice")
         st.write(
             """
             Ce projet consiste en la création d'une calculatrice graphique utilisant la bibliothèque Tkinter en Python.
@@ -133,7 +135,7 @@ with st.container():
             la multiplication et la division. Le projet se concentre sur la création d'une interface utilisateur intuitive et esthétique.
             """
         )
-        st.markdown("[Local URL...](http://localhost:8501/)")
+        st.markdown("[Local URL...](http://localhost:8502/)")
 
 # ---- THIRD IMAGE SECTION ----
 with st.container():
@@ -141,7 +143,7 @@ with st.container():
     with image_column:
         st.image(img_third_image)  # Display the third image
     with text_column:
-        st.subheader("Third Image Title")
+        st.subheader("Jeux de voiture")
         st.write(
             """
             Ce projet consiste en la création d'un jeu vidéo utilisant la bibliothèque Pygame en Python.
@@ -149,7 +151,7 @@ with st.container():
             Le projet se concentre sur la création d'une expérience de jeu engageante avec des graphismes attrayants et une jouabilité fluide..
             """
         )
-        st.markdown("[Local URL...](http://localhost:8501)")
+        st.markdown("[Local URL...](http://localhost:8503/)")
 
 # ---- CONTACT ----
 with st.container():
